@@ -1,0 +1,50 @@
+{
+  "services" : [
+    {
+      "title" : "PLANNING TOURS:",
+      "excerpt" : "We can help you plan your tour or sightseeing. With our expertise in traveling times, distances, travel conditions, and knowledge of accommodation providers, We can offer tour suggestions, for your tour to work."
+    },
+    {
+      "title" : "PLANNING TOURS:",
+      "excerpt" : "We can help you plan your tour or sightseeing. With our expertise in traveling times, distances, travel conditions, and knowledge of accommodation providers, We can offer tour suggestions, for your tour to work."
+    },
+    {
+      "title" : "NEW ZEALAND TOURING:",
+      "excerpt" : "From 12 days, starting or finishing Christchurch, Queenstown, Wellington or Auckland."
+    },
+    {
+      "title" : "NORTH ISLAND TOURING:",
+      "excerpt" : "From 4 days, starting or finishing in Auckland, Wellington, Rotorua & Napier."
+    },
+    {
+      "title" : "SOUTH ISLAND TOURING:",
+      "excerpt" : "From 4 days, starting or finishing in Christchurch, Queenstown, Dunedin, Nelson or Picton."
+    },
+    {
+      "title" : "LOCAL TOURING & SIGHTSEEING:",
+      "excerpt" : "From 2 x days starting & Finishing in Christchurch, suggestions - Kaikoura ,Hanmer Springs , Mt.Cook return Christchurch."
+    },
+    {
+      "title" : "DAY TOURS:",
+      "excerpt" : "Local sightseeing & Day Tours ex Christchurch. Cruise ship excursions ex Christchurch or Akaroa."
+    }
+  ],
+  "testimonials" : [
+    {
+      "test" : "Dear Richard Just a very quick note to let you know how much I enjoyed the tour of South Island with you! It seems like a very long time ago now and I can hardly believe I was lucky enough to come, but what an opportunity! As I’m sure you know, all of our group had a fantastic time and really appreciated your expert skills as tour guide, and your good humoured company. I will certainly be recommending you to clients. Having talked endlessly about NZ since I got home, my husband is feeling suitably left out, so we will definitely plan to visit again together. Would love to make it for the rugby world cup, but will have to see how the finances work out. Will be in touch when we have a plan. Once again, thank you for making it such a great trip. Best regards to you and Heather.",
+      "author" : "Alison Bryson Qantas Achievers Trip 2010"
+    },
+    {
+      "test" : "Richard, thank you for everything you have done for us during our trip, we greatly appreciate it. It has been a pleasure to meet you. Wishing you all the very best & many more happy tours!",
+      "author" : "Miles & Pauline"
+    },
+    {
+      "test" : "Dear Richard, Thank you for a great trip! All the UAE journalists in the group had a good time and many remarked that it was one of the best press trips they’ve been on.You made the difference. Some has already written wonderful stories and everyone is saying how much they want to go back to South Island (myself included)!",
+      "author" : "Valerie Tan Dubai, UAE"
+    },
+    {
+      "test" : "Richard, thank you for a wonderful tour you are an excellent driver & guide and I learnt so much from your informative commentary. Thank you too for helping me with my rather large suit case, Lol! Best wishes",
+      "author" : "Sue"
+    }
+  ]
+}
