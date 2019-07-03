@@ -5,7 +5,7 @@ New Zealand Tour Guide Services rebuild focusing on speed built on [webpack](htt
 Changeable areas for services and testimonials are served
 
 ### SVG overlays on images
-[CSS](https://css-tricks.com/creating-non-rectangular-headers/)
+[CSS-Tricks](https://css-tricks.com/creating-non-rectangular-headers/)
 
 ### Still Needed
 * IO animations are janky
