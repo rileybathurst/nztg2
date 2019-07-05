@@ -78,12 +78,12 @@ main {
 }
 
 .io-push {
-  animation-duration: 3s;
-  animation-name: slidein;
+  animation-duration: ease; // needed to stop the page jumping on a part of the io pulling up and down
+  // animation-name: slidein;
 }
 
 // this isnt working and needs to be used on the margins
-@keyframes slidein {
+/* @keyframes slidein {
   from {
     opacity: 0;
     margin-top: 0;
@@ -93,7 +93,7 @@ main {
     opacity: 100%;
     margin-top: 20em;
   }
-}
+} */
 
 #services {
   display: grid;

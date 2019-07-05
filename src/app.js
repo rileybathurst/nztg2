@@ -14,7 +14,7 @@ import data from './data.json'
 for (var i = 0; i < data.services.length; i++) {
 
   var myArticle = document.createElement('article');
-  myArticle.setAttribute("class", "service");
+  myArticle.setAttribute("class", "service io-push");
   var myH3 = document.createElement('h3');
   var myPara1 = document.createElement('p');
   var myBackground = document.createElement('div');
@@ -36,7 +36,7 @@ for (var j = 0; j < data.testimonials.length; j++) {
   var myTestimonal = document.createElement('article');
   var myBackground = document.createElement('div');
   myBackground.setAttribute("class", "skewer");
-  myTestimonal.setAttribute("class", "testimonial");
+  myTestimonal.setAttribute("class", "testimonial io-push");
   var myPara1 = document.createElement('p');
   var myH3 = document.createElement('quote');
 
@@ -120,7 +120,7 @@ if ('IntersectionObserver' in window &&
 
   function handleIntersect(entries, observer) {
     entries.forEach(function(entry) {
-      entry.target.style.marginTop = mT.replace("ratio", (entry.intersectionRatio*20));
+      entry.target.style.marginTop = mT.replace("ratio", (entry.intersectionRatio*5));
     prevRatio = entry.intersectionRatio;
     });
   }
