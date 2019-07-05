@@ -15,3 +15,6 @@ Changeable areas for services and testimonials are served
 * Icons for services
 * parallax images?
 * JSON packaged into the html
+* html for proper structure screen reader mode
+* dark mode
+* .htaacess file to remove index.html
