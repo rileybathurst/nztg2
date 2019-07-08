@@ -11,8 +11,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+quote {
+  font-style: italic;
+}
+
 .block {
   display: block;
+}
+
+.mt-1 {
+  margin-top: 1.5em;
 }
 
 .full-width {
@@ -43,6 +51,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  overflow: hidden;
 }
 
 .angle {
@@ -62,12 +71,18 @@ header {
   margin-bottom: -1px; /* hack to solve responsive sizing was ocassionally showing a single line of color below the text */
 }
 
+.five-em {
+  height: 5em; /* this matches the biggest the io can push the translate */
+}
+
+.margin-five {
+  margin-top: 4.9em; // has the same hack as start
+}
+
 .gcr-1 {
   grid-column: 1;
   grid-row: 1;
 }
-
-
 
 .header-logo {
   padding: $global-padding;
@@ -78,22 +93,26 @@ main {
 }
 
 .io-push {
-  animation-duration: ease; // needed to stop the page jumping on a part of the io pulling up and down
+  animation-timing-function: ease; // needed to stop the page jumping on a part of the io pulling up and down
   // animation-name: slidein;
 }
 
 // this isnt working and needs to be used on the margins
 /* @keyframes slidein {
   from {
-    opacity: 0;
-    margin-top: 0;
+  opacity: 0;
+  margin-top: 0;
   }
 
   to {
-    opacity: 100%;
-    margin-top: 20em;
+  opacity: 100%;
+  margin-top: 20em;
   }
 } */
+
+.io-parallax {
+  animation-timing-function: ease;
+}
 
 #services {
   display: grid;
@@ -114,7 +133,7 @@ main {
   grid-auto-rows: min-content; // pulls everything close
 }
 
-.service h3, .service p,
+.service h3, .service .icon, .service p,
 .testimonial p, .testimonial quote {
   grid-column: 1;
   padding-left: 1em;
@@ -122,18 +141,37 @@ main {
   align-self: start;
 }
 
-.service p {
-  align-self: stretch;
+.service .icon {
+  align-self: center;
+  justify-self: center;
+  margin-top: 2em;
 }
 
-.service h3,
+.service p {
+  align-self: stretch;
+  margin-bottom: 2em;
+}
+
+.service .icon,
 .testimonial p {
   grid-row: 1;
 }
 
-.service p,
+.service h3,
 .testimonial quote {
   grid-row: 2;
+}
+
+.service p {
+  grid-row: 3;
+}
+
+.testimonial p {
+  margin-top: 3em;
+}
+
+.testimonial quote {
+  margin-bottom: 3em;
 }
 
 .skewer {
@@ -141,9 +179,24 @@ main {
   background: linear-gradient(15deg, rgba(67,198,172,0.33) 0%, rgba(248,255,174,0.33) 100%);
   border-radius: 10px;
   transform: skewY(-7deg);
-  grid-row: 1/3;
+  grid-row: 1/4;
   grid-column: 1;
   align-self: stretch;
   justify-self: stretch;
-
 }
+
+
+
+.footer-text {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+
+
+// testing
+.opac {
+  opacity: 0.3;
+}
+
