@@ -8,12 +8,9 @@ Changeable areas for services and testimonials are served
 [CSS-Tricks](https://css-tricks.com/creating-non-rectangular-headers/)
 
 ### Still Needed
-* IO animations are janky
 * lazy loading images
 * picture elements for image sizes and webp
 * contact
-* Icons for services
-* parallax images?
 * JSON packaged into the html
 * html for proper structure screen reader mode
 * dark mode
