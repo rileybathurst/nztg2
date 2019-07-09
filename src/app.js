@@ -175,3 +175,11 @@ if ('IntersectionObserver' in window &&
     });
   }
 }
+
+
+
+
+
+
+// Lazy load
+import lozad from 'lozad';

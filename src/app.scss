@@ -4,6 +4,7 @@ $global-padding: 1em;
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -15,6 +16,18 @@ quote {
   font-style: italic;
 }
 
+z1 {
+  z-index: 1;
+}
+
+z2 {
+  z-index: 2;
+}
+
+z3 {
+  z-index: 3;
+}
+
 .block {
   display: block;
 }
@@ -23,9 +36,10 @@ quote {
   margin-top: 1.5em;
 }
 
-.full-width {
+.full-width, .full-width img{
   width: 100%;
   max-width: 100%;
+  z-index: -1;
 }
 
 .container {
