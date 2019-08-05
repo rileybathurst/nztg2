@@ -48,13 +48,16 @@ for (var j = 0; j < data.testimonials.length; j++) {
   myBackground.setAttribute("class", "skewer");
   myTestimonal.setAttribute("class", "testimonial io-push");
   var myPara1 = document.createElement('p');
+  var schemaReview = document.createElement('span');
+  schemaReview.setAttribute("itemprop", "review");
   var myH3 = document.createElement('quote');
 
-  myPara1.textContent = data.testimonials[j].test;
+  schemaReview.textContent = data.testimonials[j].test;
   myH3.textContent = data.testimonials[j].author;
 
   myTestimonal.appendChild(myBackground);
   myTestimonal.appendChild(myPara1);
+  myPara1.appendChild(schemaReview);
   myTestimonal.appendChild(myH3);
 
   document.getElementById('testimonials').appendChild(myTestimonal);

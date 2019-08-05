@@ -1,12 +1,32 @@
-<!doctype html>
+<!doctype html> <!-- HTML5 -->
 <html lang="en-NZ">
   <head>
     <meta charset="utf-8">
     <title>New Zealand Tour Guide Services with Richard Gallagher</title>
     <link rel="stylesheet" href="bundle.css">
+
+    <!-- schema -->
     <meta name="author" content="Richard Gallagher">
     <meta name="description" content="With your own private driver &amp; guide NZ Tour Guide Services are your people on the ground, run by Richard and Heather Gallagher. Both born and bred fifth generation kiwi&apos;s, Richard is one of New Zealand’s most versatile freelance Tour Guides and Driver Guides.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- open graph https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url"                content="https://nztourguide.co.nz" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:site_name"          content="New Zealand Tour Guide Services">
+    <meta property="og:title"              content="New Zealand Tour Guide Services with Richard Gallagher" />
+    <meta property="og:description"        content="Why Tour Like Sheep ; When Your Tour Can Be More Unique" />
+    <meta property="og:image"              content="https://nztourguide.con.nz/static/nztourguide-opengraph-image.jpg" />
+    <meta property="og:locale" content="en_NZ">
+
+    <!-- twitter tags -->
+    <meta name="twitter:card" content="New Zealand Tour Guide Services with Richard Gallagher">
+    <!-- <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account"> -->
+    <meta name="twitter:url" content="https://nztourguide.co.nz">
+    <meta name="twitter:title" content="New Zealand Tour Guide Services">
+    <meta name="twitter:description" content="Why Tour Like Sheep ; When Your Tour Can Be More Unique">
+    <meta name="twitter:image" content="https://nztourguide.con.nz/static/nztourguide-opengraph-image.jpg">
 
     <!-- https://realfavicongenerator.net -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,8 +38,12 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=1741893722579772&autoLogAppEvents=1"></script>
+
     <header style="margin-top: -5em; overflow: hidden">
-      <h1 class="screen-reader">New Zealand Tour Guide Services with Richard Gallagher</h1>
+      <h1 class="screen-reader" itemprop="name">New Zealand Tour Guide Services with Richard Gallagher</h1>
       <picture class="gcr-1 full-width header__bg io-parallax">
         <source srcset="static/aneta-foubikova-ph-ldDJS6vc-unsplash-1080x720.webp" type="image/webp" media="(min-width: 960px)">
         <source srcset="static/aneta-foubikova-ph-ldDJS6vc-unsplash-1080x720.jpg" media="(min-width: 960px)">
@@ -30,7 +54,7 @@
         <source srcset="static/aneta-foubikova-ph-ldDJS6vc-unsplash-640x426.webp" type="image/webp" media="(min-width: 360px)">
         <source srcset="static/aneta-foubikova-ph-ldDJS6vc-unsplash-640x426.jpg" media="(min-width: 360px)">
         <source srcset="static/aneta-foubikova-ph-ldDJS6vc-unsplash-360x240.webp" type="image/webp">
-        <img src="static/aneta-foubikova-ph-ldDJS6vc-unsplash-360x240.jpg" alt="new zealand green mountains" loading="auto">
+        <img src="static/aneta-foubikova-ph-ldDJS6vc-unsplash-360x240.jpg" alt="new zealand green mountains" loading="auto" itemprop="logo">
       </picture>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="angle end z2">
         <polygon fill="white" points="0,100 100,0 100,100"/>
@@ -39,7 +63,7 @@
     </header>
 
     <main class="container io-push">
-      <h2>&ldquo;Why Tour Like Sheep ; When Your Tour Can Be More Unique&rdquo;</h2>
+      <h2><span itemprop="description">&ldquo;Why Tour Like Sheep ; When Your Tour Can Be More Unique&rdquo;</span></h2>
       <p>With your own private driver &amp; guide NZ Tour Guide Services are your people on the ground, run by Richard and Heather Gallagher. Both born and bred fifth generation kiwi&apos;s, Richard is one of New Zealand’s most versatile freelance Tour Guides and Driver Guides.</p>
 
       <p>With years of professional tourism experience behind him, and a fun, friendly approach to guiding, you can trust your tour in New Zealand will be one to remember and safely driven.</p>
@@ -50,8 +74,10 @@
 
       <p>For a tour that's interesting and informative, with plenty of fun and with locals, contact NZ Tour Guide Services and keep up with us on:</p>
 
-      <a href="#" target="_blank" rel="nofollow" class="block mt-1"><img src="src/images/FB-FindUsonFacebook-online-144.png" alt="find us on facebook" loading="lazy"></a>
-      <a href="#" target="_blank" rel="nofollow" class="block mt-1"><img src="src/images/TA_logo_horz_rgb.png" alt="were on trip advisor" loading="lazy"></a>
+      <!-- <a href="https://www.facebook.com/nztourguide/" target="_blank" rel="nofollow" class="block mt-1"><img src="src/images/FB-FindUsonFacebook-online-144.png" alt="find us on facebook" loading="lazy"></a> -->
+      <a href="https://www.tripadvisor.com/Attraction_Review-g255118-d9806051-Reviews-NZ_Tourguide_Services-Christchurch_Canterbury_Region_South_Island.html" target="_blank" rel="nofollow" class="block mt-1"><img src="src/images/TA_logo_horz_rgb.png" alt="were on trip advisor" loading="lazy"></a>
+
+      <div class="fb-page" data-href="https://www.facebook.com/nztourguide/" data-tabs="timeline" data-width="736px" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nztourguide/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nztourguide/">NZ Tour Guide Services</a></blockquote></div>
     </main>
 
     <div class="grid io-push">
@@ -203,6 +229,7 @@
           <polygon fill="white" points="0,0 100,0 0,100"/>
         </svg>
         <div class="container gcr-1 footer-text">
+          <h2><a href="mailto:info@nztourguide.co.nz" itemprop="email">info@nztourguide.co.nz</a></h2>
           <p style="color: white;" class="z3">New Zealand Tour Guide Services with Richard Gallagher &copy; 2019. All Rights Reserved.</p>
         </div>
       </div>
