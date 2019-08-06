@@ -16,6 +16,15 @@ a {
   color: #43c6ac;
 }
 
+a:hover {
+  color: #00957d;
+  text-decoration: line-through;
+}
+
+ul {
+  line-height: 2em;
+}
+
 quote {
   font-style: italic;
 }
@@ -136,7 +145,7 @@ main {
   display: grid;
   grid-gap: 2em;
   // https://codepen.io/rachelandrew/pen/GZQYQa
-  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(22em,1fr));
 }
 
 #testimonials {
@@ -151,7 +160,7 @@ main {
   grid-auto-rows: min-content; // pulls everything close
 }
 
-.service h3, .service .icon, .service p,
+.service h3, .service .icon, .service p, .service .multi-p,
 .testimonial p, .testimonial quote {
   grid-column: 1;
   padding-left: 1em;
@@ -165,7 +174,8 @@ main {
   margin-top: 2em;
 }
 
-.service p {
+.service p,
+.service .multi-p {
   align-self: stretch;
   margin-bottom: 2em;
 }
@@ -180,7 +190,8 @@ main {
   grid-row: 2;
 }
 
-.service p {
+.service p,
+.service .multi-p {
   grid-row: 3;
 }
 

@@ -11,7 +11,7 @@ req.keys().forEach(function(key){
 import data from './data.json'
 
 // fill services with JSON data
-for (var i = 0; i < data.services.length; i++) {
+/* for (var i = 0; i < data.services.length; i++) {
 
   var myArticle = document.createElement('article');
   myArticle.setAttribute("class", "service io-push");
@@ -32,13 +32,11 @@ for (var i = 0; i < data.services.length; i++) {
   myArticle.appendChild(myIcon);
   }
 
-
-
   myArticle.appendChild(myPara1);
   myArticle.appendChild(myBackground);
 
   document.getElementById('services').appendChild(myArticle);
-}
+} */
 
 // fill testimonials with JSON data
 for (var j = 0; j < data.testimonials.length; j++) {
